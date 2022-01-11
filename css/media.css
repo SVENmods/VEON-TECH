@@ -1,0 +1,104 @@
+@media screen and (max-width: 1500px) {
+  .title, .description{
+    font-size: 251%;
+  }
+  .green_hilight{
+    font-size: 301%;
+  }
+  .main_text{
+    font-size: 90%;
+  }
+  .contact_content_area, .scope_content_area, .services_content_area{
+    left: 68.1vw;
+    margin-top: 2%;
+  }
+  .scope_content_area {
+    left: 57.3vw;
+  }
+  .services_content_area {
+    left: 46.5vw;
+  }
+  .services_content{
+    height: 19vh;
+  }
+  .section_container{
+    padding-top: 6%;
+  }
+
+}
+
+@media screen and (max-width: 1350px) {
+  .title, .description{
+    font-size: 211%;
+  }
+  .green_hilight{
+    font-size: 261%;
+  }
+  .main_text{
+    font-size: 80%;
+  }
+  .contact_content_area, .scope_content_area, .services_content_area{
+    left: 67vw;
+    margin-top: 2.2%;
+  }
+  .scope_content_area {
+    left: 56vw;
+  }
+  .services_content_area {
+    left: 44.8vw;
+  }
+  .services_content{
+    height: 19vh;
+  }
+  .section_container{
+    padding-top: 3%;
+  }
+}
+
+@media screen and (max-width: 1135px) {
+  .title, .description{
+    font-size: 201%;
+  }
+  .green_hilight{
+    font-size: 251%;
+  }
+  .main_text{
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 1095px) {
+  .title, .description{
+    font-size: 181%;
+  }
+  .green_hilight{
+    font-size: 231%;
+  }
+  .main_text{
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .title, .description{
+    font-size: 161%;
+  }
+  .green_hilight{
+    font-size: 211%;
+  }
+  .main_text{
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .title, .description{
+    font-size: 141%;
+  }
+  .green_hilight{
+    font-size: 191%;
+  }
+  .main_text{
+    font-size: 60%;
+  }
+}
