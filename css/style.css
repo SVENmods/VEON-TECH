@@ -906,3 +906,8 @@ body {
 .slider__item:nth-child(3) {
   background-color: transparent;
 }
+
+a {
+  text-decoration: none;
+  cursor: default;
+}
