@@ -1,0 +1,82 @@
+body {
+  background-color: #1E7340;
+  color: white;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+/** {
+  border: 1px solid red;
+}*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.policy_content {
+  margin-top: 10%;
+  align-items: center;
+  font-family: "Roboto";
+  cursor: default;
+}
+
+.policy_title {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 84px;
+}
+
+.policy_context {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  width: 70%;
+  margin-left: 9%;
+  margin-top: 10%;
+}
+
+.policy_minititle {
+  width: 50%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  margin-left: 12%;
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+
+.policy_maintext{
+  margin-left: 9%;
+  width: 70%;
+  margin-top: 5%;
+}
+
+li{
+  list-style-type: none;
+  margin-bottom: 1%;
+}
+
+.policy_maintext:last-child{
+  margin-bottom: 10%;
+}
