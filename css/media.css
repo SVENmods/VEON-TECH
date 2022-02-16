@@ -1,4 +1,4 @@
-@media screen and (max-width: 1500px) {
+/*@media screen and (max-width: 1500px) {
   .title, .description{
     font-size: 251%;
   }
@@ -24,7 +24,32 @@
   .section_container{
     padding-top: 6%;
   }
+  .img_tech{
+    margin-left: -3%;
+    width: 75%;
+  }
+  .page_span{
+    font-size: 30px;
+  }
+  .table_tech{
+    text-align: left;
+  }
+  .span_tech{
+    line-height: 2.7em;
+    font-size: 16px;
+    padding-left: 1.7vw;
+    width: 17.4vw;
+  }
+  .line{
+    margin-left: 15px;
+  }
+  .cardshop_buttons{
+    font-size: 9px;
+  }
 
+  *{
+    color: blue;
+  }
 }
 
 @media screen and (max-width: 1350px) {
@@ -53,6 +78,9 @@
   .section_container{
     padding-top: 3%;
   }
+  .cardshop_buttons{
+    font-size: 9px;
+  }
 }
 
 @media screen and (max-width: 1135px) {
@@ -64,6 +92,9 @@
   }
   .main_text{
     font-size: 70%;
+  }
+  .cardshop_buttons{
+    font-size: 9px;
   }
 }
 
@@ -77,6 +108,9 @@
   .main_text{
     font-size: 70%;
   }
+  .cardshop_buttons{
+    font-size: 9px;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -89,6 +123,9 @@
   .main_text{
     font-size: 70%;
   }
+  .cardshop_buttons{
+    font-size: 9px;
+  }
 }
 
 @media screen and (max-width: 890px) {
@@ -100,5 +137,108 @@
   }
   .main_text{
     font-size: 60%;
+  }
+}
+*/
+
+
+@media only screen and (max-width : 1880px) {
+}
+
+@media only screen and (max-width : 1440px) {
+  .title, .description{
+    font-size: 200%;
+  }
+  .green_hilight{
+    font-size: 254%;
+  }
+  .main_text{
+    font-size: 80%;
+  }
+  .application_bt{
+    height: 4em;
+    width: 12%;
+    font-size: 45%;
+  }
+  .main_2>.section_container>.text>.title {
+    font-size: 210%;
+  }
+  .main_3>.section_container>.text>.title {
+    font-size: 210%;
+  }
+  .main_2>.section_container>.text>.green_hilight {
+    font-size: 230%;
+  }
+  .main_3>.section_container>.text>.green_hilight {
+    font-size: 230%;
+  }
+  .stripes{
+    font-size: 250%;
+    border-right: 4px solid #08A659;
+    border-left: 4px solid #08A659;
+  }
+  .main_3>.section_container>.application_bt {
+    height: 3.5em;
+    width: 12.5%;
+    font-size: 60%;
+  }
+  .main_5>.section_container>.text>.title {
+    font-size: 210%;
+  }
+  .main_5>.section_container>.text>.description {
+    font-size: 120%;
+  }
+  .span_tech {
+    font-size: 14px;
+    width: 16.95vw;
+  }
+  .img_tech{
+    width: 60%;
+    margin-left: .5vw;
+  }
+  .page_span{
+    font-size: 35px;
+  }
+  .address_span, .email_span, .telef_span {
+    font-size: 15px;
+  }
+  .file_inp_bt{
+    font-size: 15px;
+  }
+  ::placeholder{
+    font-size: 16px;
+  }
+  .send_inp{
+    font-size: 15px;
+  }
+  .contact_content_area, .scope_content_area, .services_content_area{
+    margin-top: 2%;
+  }
+  .contact_content_area{
+    left: 67.5vw;
+  }
+  .scope_content_area{
+    left: 57%;
+  }
+  .services_content_area{
+    left: 46%;
+    margin-top: 2.3%;
+  }
+  .tele_inp{
+    width: 41.7vw;
+  }
+  .mass_inp{
+    width: 40.5vw;
+  }
+  /*portfolio*/
+  .nav_portf{
+    font-size: 16px;
+  }
+  .wordpress span:nth-child(1){
+    font-size: 28px;
+  }
+  .wordpress span:nth-child(4){
+    margin-top: 0%;
+    margin-left: 65%;
   }
 }
