@@ -96,6 +96,7 @@ $('#seo_landing_bt').click(function() {
   }
 });
 
+
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("page_tech");
@@ -111,6 +112,8 @@ function openTab(evt, tabName) {
     /*document.getElementById(tabName).style.display = "block";*/
     evt.currentTarget.className += " active";
 }
+
+
 
 document.getElementById("chat_bt").onclick= function(){
   $("#chat").show('slow');
