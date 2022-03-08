@@ -96,18 +96,28 @@ $('#seo_landing_bt').click(function() {
   }
 });
 
-$('#span_tech_2').click(function() {
-  if ($('#page_tech_2').hasClass("open")) {
-    $("#page_tech_2").show('slow');
-    $('#span_tech_2').css("background-color", "rgba(0, 0, 0, 0.5)");
-    $('#page_tech_2').removeClass('open');
-  } else {
-    $('#page_tech_2').addClass('open');
-    $('#span_tech_2').css("background-color","#1E7340");
-    $('#page_tech_2').hide("slow")
-  }
-});
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("page_tech");
+    for (i = 0; i < tabcontent.length; i++) {
+        $(tabcontent[i]).hide('slow');
+      /*  tabcontent[i].style.display = "none";*/
+    }
+    tablinks = document.getElementsByClassName("span_tech");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    $(document.getElementById(tabName)).show('slow');
+    /*document.getElementById(tabName).style.display = "block";*/
+    evt.currentTarget.className += " active";
+}
 
-/*document.getElementById("span_tech_1").onclick= function(){
-  document.getElementById("page_tech_1").style.display="block";
-};*/
+document.getElementById("chat_bt").onclick= function(){
+  $("#chat").show('slow');
+  $("#overlap").show('slow');
+}
+
+document.getElementById("chat_close").onclick= function(){
+  $("#chat").hide('slow');
+  $("#overlap").hide('slow');
+}
