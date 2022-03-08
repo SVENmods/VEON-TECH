@@ -132,6 +132,7 @@ body {
 .swiper-pagination-bullet {
   border: 1.5px solid white;
   background-color: transparent;
+  z-index: 1;
 }
 
 .swiper-pagination, .swiper-pagination-clickable, .swiper-pagination-bullets, .swiper-pagination-vertical {
@@ -243,13 +244,13 @@ body {
 }
 
 .scope_content_area {
-  margin-top: 2vh;
+  margin-top: 3vh;
   height: 120px;
   left: 68.5%;
 }
 
 .services_content_area {
-  margin-top: 1%;
+  margin-top: 1.5%;
   height: 120px;
   left: 60%;
 }
@@ -302,7 +303,6 @@ body {
 
 .scope_content {
   font-size: 0;
-  margin-top: 1.5%;
   padding-top: 5px;
   padding-left: 10px;
   text-align: left;
@@ -796,6 +796,7 @@ body {
   background: #146936;
   z-index: -1;
   cursor: default;
+  overflow: hidden;
 }
 
 .span_tech {
@@ -822,8 +823,8 @@ body {
   padding-left: 5%;
 }
 
-.span_tech:hover .page_tech {
-  display: block;
+.span_tech:hover{
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .page_span {
@@ -840,6 +841,7 @@ body {
 .table_tech{
   clear: both;
   empty-cells: hide;
+  overflow: hidden;
 }
 
 .table_tech tr *{
