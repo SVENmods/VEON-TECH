@@ -1043,7 +1043,7 @@ a {
   visibility: hidden;
 }
 .custom_file_input::before {
-  content: url("https://svenmods.github.io/VEON-TECH/resource/icons/clip.png");
+  content: url("./resource/icons/Clip.png");
   display: flex;
   align-items:center;
   justify-content: center;
