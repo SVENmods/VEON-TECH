@@ -99,6 +99,44 @@
   .name_inp, .email_inp, .tele_inp, .mass_inp {
     font-size: 18px;
   }
+  /*chat_window*/
+  .chat{
+    width: 400px;
+    height: 550px;
+    bottom: 40px;
+    right: 490px;
+  }
+  .chat_header span{
+    font-size: 15px;
+  }
+  .chat_body{
+    height: 400px;
+  }
+  .chat_body p{
+    width: 80%;
+  }
+  .chat_body p, .chat_name{
+    font-size: 15px;
+  }
+  .chat_pic{
+    width: 64px;
+    height: 64px;
+  }
+  .two_stripe_footer{
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .chat_footer{
+    height: 30px;
+    margin-top: 0px;
+  }
+  .chat_massage{
+    width: 345px;
+    font-size: 15px;
+  }
+  .chat_massage::placeholder{
+    font-size: 15px;
+  }
   /*portfolio*/
   .nav_portf{
     font-size: 16px;
