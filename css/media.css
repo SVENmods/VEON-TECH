@@ -1,9 +1,160 @@
-@media only screen and (max-width : 1880px) {
+/*@media screen and (max-width: 1500px) {
+  .title, .description{
+    font-size: 251%;
+  }
+  .green_hilight{
+    font-size: 301%;
+  }
+  .main_text{
+    font-size: 90%;
+  }
+  .contact_content_area, .scope_content_area, .services_content_area{
+    left: 68.1vw;
+    margin-top: 2%;
+  }
+  .scope_content_area {
+    left: 57.3vw;
+  }
+  .services_content_area {
+    left: 46.5vw;
+  }
+  .services_content{
+    height: 19vh;
+  }
+  .section_container{
+    padding-top: 6%;
+  }
+  .img_tech{
+    margin-left: -3%;
+    width: 75%;
+  }
+  .page_span{
+    font-size: 30px;
+  }
+  .table_tech{
+    text-align: left;
+  }
+  .span_tech{
+    line-height: 2.7em;
+    font-size: 16px;
+    padding-left: 1.7vw;
+    width: 17.4vw;
+  }
+  .line{
+    margin-left: 15px;
+  }
+  .cardshop_buttons{
+    font-size: 9px;
+  }
 
+  *{
+    color: blue;
+  }
 }
 
-@media only screen and (max-width : 1440px) {
+@media screen and (max-width: 1350px) {
+  .title, .description{
+    font-size: 211%;
+  }
+  .green_hilight{
+    font-size: 261%;
+  }
+  .main_text{
+    font-size: 80%;
+  }
+  .contact_content_area, .scope_content_area, .services_content_area{
+    left: 67vw;
+    margin-top: 2.2%;
+  }
+  .scope_content_area {
+    left: 56vw;
+  }
+  .services_content_area {
+    left: 44.8vw;
+  }
+  .services_content{
+    height: 19vh;
+  }
+  .section_container{
+    padding-top: 3%;
+  }
+  .cardshop_buttons{
+    font-size: 9px;
+  }
+}
 
+@media screen and (max-width: 1135px) {
+  .title, .description{
+    font-size: 201%;
+  }
+  .green_hilight{
+    font-size: 251%;
+  }
+  .main_text{
+    font-size: 70%;
+  }
+  .cardshop_buttons{
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 1095px) {
+  .title, .description{
+    font-size: 181%;
+  }
+  .green_hilight{
+    font-size: 231%;
+  }
+  .main_text{
+    font-size: 70%;
+  }
+  .cardshop_buttons{
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .title, .description{
+    font-size: 161%;
+  }
+  .green_hilight{
+    font-size: 211%;
+  }
+  .main_text{
+    font-size: 70%;
+  }
+  .cardshop_buttons{
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .title, .description{
+    font-size: 141%;
+  }
+  .green_hilight{
+    font-size: 191%;
+  }
+  .main_text{
+    font-size: 60%;
+  }
+}
+*/
+
+
+@media only screen and (max-width : 1880px) {
+  /**{
+    color: blue;
+  }*/
+}
+
+@media only screen and (max-width : 1560px) {
+  *{
+    color: red;
+  }
+  .connection_bt, .contact_bt, .scope_bt, .services_bt, .home_bt, .aboute_bt, .portfolio_bt {
+    font-size: 15px;
+  }
   .title, .description{
     font-size: 200%;
   }
@@ -99,24 +250,42 @@
   .name_inp, .email_inp, .tele_inp, .mass_inp {
     font-size: 18px;
   }
+  .slide_footer{
+    margin-top: 30px;
+  }
+  .slide_footer a{
+    font-size: 13px;
+  }
+  .footer_right span{
+    font-size: 13px;
+  }
+  .footer_right img:nth-child(1){
+    margin-right: 16px;
+  }
+  .footer_right img:nth-child(2){
+    margin-right: 26px;;
+  }
+  .main_5 .section_container{
+    margin-top: 100px;
+  }
   /*chat_window*/
   .chat{
-    width: 400px;
-    height: 550px;
-    bottom: 40px;
-    right: 490px;
+    width: 250px;
+    height: 400px;
+    bottom: 110px;
+    right: 100px;
   }
   .chat_header span{
     font-size: 15px;
   }
   .chat_body{
-    height: 400px;
+    height: 255px;
   }
   .chat_body p{
     width: 80%;
   }
   .chat_body p, .chat_name{
-    font-size: 15px;
+    font-size: 13px;
   }
   .chat_pic{
     width: 64px;
