@@ -1,15 +1,37 @@
 var swiper = new Swiper('.swiper-container', {
   direction: 'vertical',
   sliderPerView: 1,
+  speed: 450,
   spaceBetween: 0,
   loop: true,
-  mousewheel: true,
+  longSwipes: true,
+  preventClicksPropagation: true,
+  autoplayDisableOnInteraction: true,
+  followFinger:false,
+  mousewheel: {
+    sensitivity: 0.001,
+  },
   allowTouchMove: false,
+  touchStartPreventDefault: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
   },
 });
+
+/*var oldSrc = '../resource/icons/telephone.png';
+var newSrc = '../resource/icons/telephone_black.png';
+
+swiper.on('slideChange', function() {
+  if (this.activeIndex === 1 || this.activeIndex === 2 || this.activeIndex === 3 || this.activeIndex === 4) {
+    $( ".home_page" ).addClass( "white_style", 10000);
+    $('.tele_img[src="' + oldSrc + '"]').attr('src', newSrc);
+  }
+  else{
+    $( ".home_page" ).removeClass( "white_style" );
+    $('.tele_img[src="' + newSrc + '"]').attr('src', oldSrc);
+  };
+});*/
 
 document.addEventListener('DOMContentLoaded', function() {
   const slider = new ChiefSlider('.slider', {
@@ -96,31 +118,62 @@ $('#seo_landing_bt').click(function() {
   }
 });
 
+/*$('#span_tech_2').click(function() {
+  if ($('#page_tech_2').hasClass("open") && $('#page_tech_1').hasClass("open")) {
+    $('#page_tech_1').addClass('open');
+    $('#span_tech_1').css("background-color","#1E7340");
+    $('#page_tech_1').hide("slow")
+    $("#page_tech_2").show('slow');
+    $('#span_tech_2').css("background-color", "rgba(0, 0, 0, 0.5)");
+    $('#page_tech_2').removeClass('open');
+  } else {
+    $('#page_tech_2').addClass('open');
+    $('#span_tech_2').css("background-color","#1E7340");
+    $('#page_tech_2').hide("slow")
+  }
+});
+
+$('#span_tech_1').click(function() {
+  if ($('#page_tech_1').hasClass("open")) {
+    $("#page_tech_1").show('slow');
+    $('#span_tech_1').css("background-color", "rgba(0, 0, 0, 0.5)");
+    $('#page_tech_1').removeClass('open');
+  } else {
+    $('#page_tech_1').addClass('open');
+    $('#span_tech_1').css("background-color","#1E7340");
+    $('#page_tech_1').hide("slow")
+  }
+});*/
 
 function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("page_tech");
-    for (i = 0; i < tabcontent.length; i++) {
-        $(tabcontent[i]).hide('slow');
-      /*  tabcontent[i].style.display = "none";*/
-    }
-    tablinks = document.getElementsByClassName("span_tech");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    $(document.getElementById(tabName)).show('slow');
-    /*document.getElementById(tabName).style.display = "block";*/
-    evt.currentTarget.className += " active";
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("page_tech");
+  for (i = 0; i < tabcontent.length; i++) {
+    $(tabcontent[i]).hide('slow');
+    /*  tabcontent[i].style.display = "none";*/
+  }
+  tablinks = document.getElementsByClassName("span_tech");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  $(document.getElementById(tabName)).show('slow');
+  /*document.getElementById(tabName).style.display = "block";*/
+  evt.currentTarget.className += " active";
 }
 
 
+/*document.getElementById("bt_arr_2").onclick= function(){
+  document.getElementById("circl_litle2").style.visibility="visible";
+}*/
 
-document.getElementById("chat_bt").onclick= function(){
+document.getElementById("chat_bt").onclick = function() {
   $("#chat").show('slow');
   $("#overlap").show('slow');
+  $("#chat_bt").hide('slow');
 }
 
-document.getElementById("chat_close").onclick= function(){
+document.getElementById("chat_close").onclick = function() {
   $("#chat").hide('slow');
   $("#overlap").hide('slow');
+  $("#chat_bt").show('slow');
 }
