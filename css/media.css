@@ -149,9 +149,6 @@
 }
 
 @media only screen and (max-width : 1560px) {
-  *{
-    color: red;
-  }
   .connection_bt, .contact_bt, .scope_bt, .services_bt, .home_bt, .aboute_bt, .portfolio_bt {
     font-size: 15px;
   }
